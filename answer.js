@@ -49,7 +49,7 @@
       item.innerHTML = `<strong>${prop}</strong> : ${quiz[prop]}`;
       quizContainer.appendChild(item);
     }
-
+    console.log(quizContainer);
     return quizContainer;
   };
 
